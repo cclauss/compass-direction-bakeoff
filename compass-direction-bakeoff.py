@@ -109,7 +109,7 @@ for angle_in_degrees in range(360):
     bakeoff(angle_in_degrees)
 
 # optional negative user testing
-bakeoff(22.1)
+bakeoff(20.9)
 bakeoff(-1)
 bakeoff(10000)
 bakeoff('a')
