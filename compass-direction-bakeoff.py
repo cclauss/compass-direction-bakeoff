@@ -48,7 +48,7 @@ def compass_dir_3(x):
 def compass_dir_4(x = 0):
     if x >= 340 or x <= 20:
         return 'N'
-    elif 20 < x < 70:
+    elif 20 < x < 70:  # optimization for 20 < x and x < 70
         return 'NE'
     elif 70 <= x <= 110:
         return 'E'
@@ -66,7 +66,7 @@ def compass_dir_4(x = 0):
 def compass_dir_5(x = 0):
     if x >= 340 or x <= 20:
         return 'N'
-    if x < 70:
+    if x < 70:  # no elifs
         return 'NE'
     if x <= 110:
         return 'E'
